@@ -6,8 +6,8 @@ public class MyFrame extends JFrame {
         
         this.setTitle("In-Post");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.setResizable(false);
-        this.setSize(300, 200);
+        this.setResizable(true);
+        this.setSize(1920, 1080);
         this.setVisible(true);
 
         ImageIcon image = new ImageIcon("images.png");
